@@ -1,0 +1,126 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 3rem 1rem;
+  }
+  
+  .nav-item {
+    margin: 0 3rem;
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: rgb(26, 50, 169);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+    margin: 3rem 0;
+    width: auto;
+  }
+  
+  .logo {
+    height: 100%;
+  }
+  
+  .imput {
+    width: 65vw;
+    max-width: 584px;
+    border-radius: 15px;
+    height: 44px;
+    font-size: 16px;
+    box-shadow: 0 1px 6px 0;
+    margin-bottom: 16px;
+  }
+  
+  .google-btns {
+    display: flex;
+    justify-content: center;
+  }
+  .google-btns .google-btn {
+    margin: 1rem 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding: 0.3rem 1.6rem;
+  }
+  
+  .h1-advanced {
+    color: #d93025;
+    font-size: 2rem;
+    margin: 25px 35px;
+    font-family: arial, sans-serif;
+  }
+  
+  .line {
+    border-bottom: 1px solid #ebebeb;
+  }
+  
+  .h2-advanced {
+    display: inline-block;
+    min-width: 167px;
+    font-size: 1.6rem;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+  }
+  
+  .div-advanced {
+    margin: 5rem;
+  }
+  
+  .row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .left {
+    width: 200px;
+  }
+  
+  .form-input {
+    width: 385px;
+  }
+  
+  .btn-advanced {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+  }
+  
+  .btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62, 5%;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+  }
